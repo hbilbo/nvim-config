@@ -40,6 +40,9 @@ require('lazy').setup({
   require 'kickstart.plugins.nvim-treesitter',
 
   require 'kickstart.plugins.autoformat',
+
+  { "nvim-neotest/nvim-nio" },
+
   require 'kickstart.plugins.debug',
 
 }, {})
